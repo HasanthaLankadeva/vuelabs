@@ -16,6 +16,14 @@ const routes = [
     path: "/NewPage",
     component: () => import("@/pages/NewPage.vue"),
   },
+  {
+    path: "/NewPageNext",
+    component: () => import("@/pages/NewPageNext.vue"),
+  },
+  {
+    path: "/MainPage",
+    component: () => import("@/pages/MainPage.vue"),
+  },
 ];
 
 const router = createRouter({
